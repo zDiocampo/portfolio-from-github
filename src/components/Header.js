@@ -13,6 +13,7 @@ export default class Header extends Component {
                <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                <li><a className="smoothscroll" href="#about">About</a></li>
                <li><a className="smoothscroll" href="#contact">Contact</a></li>
+               <li><a href="https://docs.google.com/document/d/1XJyNgqGoxcTOA2yZXcrxtcDhcoFvlPWYHOsOnLPCKbA/edit?usp=sharing" target="_blank" rel="noreferrer">View Resume</a></li>
             </ul>
          </nav>
 
@@ -27,7 +28,7 @@ export default class Header extends Component {
                     resumeData.socialLinks && resumeData.socialLinks.map(item =>{
                       return(
                               <li key={item.name}>
-                                <a href={item.url} target="_blank"><i className={item.className}></i></a>
+                                <a href={item.url} target="_blank" rel="noreferrer"><i className={item.className}></i></a>
                               </li>
                             )
                           }

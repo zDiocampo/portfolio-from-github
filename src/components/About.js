@@ -36,6 +36,13 @@ export default class About extends Component {
                     <span>{resumeData.website}</span>
        					   </p>
                   </div>
+                  <div className="columns download">
+                     <p>
+                        <a href="https://docs.google.com/document/d/1XJyNgqGoxcTOA2yZXcrxtcDhcoFvlPWYHOsOnLPCKbA/edit?usp=sharing" className="button" target="_blank" rel="noreferrer">
+                           <i className="fa fa-download"></i>View Resume
+                        </a>
+                     </p>
+                  </div>
                </div>
             </div>
          </div>
